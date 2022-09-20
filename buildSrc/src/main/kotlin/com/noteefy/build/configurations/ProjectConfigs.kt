@@ -9,4 +9,7 @@ object ProjectConfigs {
     const val targetSdkVersion = 30
     const val applicationId = "com.noteefy"
     const val kotlinCompilerExtensionVersion = Versions.composeCompiler
+    const val kotlinKSP = Versions.kotlinKsp
+    const val versionCode = 1
+    const val versionName = "1.0.0"
 }

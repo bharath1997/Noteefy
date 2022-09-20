@@ -28,6 +28,9 @@ object Dependencies {
     const val composeLottie = "com.airbnb.android:lottie-compose:${Versions.lottie}"
     const val composeNavigation = "androidx.navigation:navigation-compose:${Versions.navCompose}"
 
+    const val composeDestinations = "io.github.raamcosta.compose-destinations:core:${Versions.navCompose}"
+    const val composeDestinationsksp = "io.github.raamcosta.compose-destinations:ksp:${Versions.navCompose}"
+
     const val composeUiTestJunit4 = "androidx.compose.ui:ui-test-junit4:${Versions.compose}"
     const val composeUiTestManifest = "androidx.compose.ui:ui-test-manifest:${Versions.compose}"
 
@@ -70,6 +73,5 @@ object Dependencies {
     const val kotlinTest = "org.jetbrains.kotlin:kotlin-test:${Versions.kotlin}"
     const val androidXJunit = "androidx.test.ext:junit:${Versions.androidXJunit}"
 
-    const val biometric = "androidx.biometric:biometric:${Versions.biometric}"
 
 }
